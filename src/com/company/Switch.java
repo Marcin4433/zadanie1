@@ -50,7 +50,7 @@ public class Switch {
                     Runtime.getRuntime().exec("cls");
                 }
             } catch (Exception e) {
-                System.out.println("Bad Choice ... Please give me a number 1 to 2 ");
+                System.out.println("Bad Choice ... Please give me a number 1 to 3 ");
             }
 
 

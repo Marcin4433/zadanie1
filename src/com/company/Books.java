@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Books {
 
     public void nextElement() throws FileNotFoundException {
-        File file = new File("./src/books.txt");
+        File file = new File("C:\\Users\\marci\\Desktop\\zadanie 1\\src\\com\\company\\books.txt");
         Scanner users = new Scanner((file));
         StringTokenizer token;
         Object tk;

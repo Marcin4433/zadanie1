@@ -6,7 +6,9 @@ import java.util.Scanner; // I use scanner because it's command line.
 
 public class Login {
     public void run() throws FileNotFoundException {
-        Scanner scan = new Scanner (new File("./src/login.txt"));
+        Scanner scan = new Scanner (new File("C:\\Users\\marci\\Desktop\\zadanie 1\\src\\com\\company\\login.txt"));
+
+        //Scanner scan = new Scanner (new File("./zadanie1/src/com/company/login.txt"));
         Scanner keyboard = new Scanner (System.in);
         String user = scan.nextLine();
         String pass = scan.nextLine(); // looks at selected file in scan
