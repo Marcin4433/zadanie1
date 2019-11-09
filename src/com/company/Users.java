@@ -11,7 +11,7 @@ import java.io.FileNotFoundException;
 public class Users {
 
     public void nextElement() throws FileNotFoundException {
-        File file = new File("C:\\Users\\marci\\Desktop\\zadanie 1\\src\\com\\company\\users.txt");
+        File file = new File("src/com/company/users.txt");
         Scanner users = new Scanner((file));
         StringTokenizer token;
         Object tk;
